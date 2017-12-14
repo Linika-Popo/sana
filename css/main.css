@@ -19,10 +19,14 @@ body {
 
 .info::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url("css/images/phone.png");    
 =======
     background: url("D:/Linika/dev/sana_demo/images/phone.png");    
 >>>>>>> parent of e4bde52... images pathway
+=======
+    background: url("images/phone.png");    
+>>>>>>> parent of a8569b2... img
     content: '';
     display: inline-block;
     margin-right: 9px;
@@ -149,10 +153,14 @@ body {
 
 .products::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background: url("css/images/basket-white.png") no-repeat;
 =======
     background: url("D:/Linika/dev/sana_demo/images/basket-white.png") no-repeat;
 >>>>>>> parent of e4bde52... images pathway
+=======
+    background: url("images/basket-white.png") no-repeat;
+>>>>>>> parent of a8569b2... img
     content: '';
     display: inline-block;    
     height: 18px;
@@ -208,10 +216,14 @@ body {
 
 .nav_top p {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url("css/images/djgear-bg3.jpg");       
 =======
     background-image: url("D:/Linika/dev/sana_demo/images/djgear-bg3.jpg");       
 >>>>>>> parent of e4bde52... images pathway
+=======
+    background-image: url("images/djgear-bg3.jpg");       
+>>>>>>> parent of a8569b2... img
     margin: 0;
     font-size: 3.5rem;
     letter-spacing: 2px;
