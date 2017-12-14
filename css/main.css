@@ -200,7 +200,7 @@ body {
 
 .nav_top p {
     background-image: url("/sana/images/djgear-bg3.jpg");
-    border-image-repeat: no-repeat;
+    background-repeat: no-repeat;
     margin: 0;
     font-size: 3.5rem;
     letter-spacing: 2px;
