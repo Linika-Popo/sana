@@ -18,7 +18,11 @@ body {
 
 
 .info::before {
+<<<<<<< HEAD
     background: url("css/images/phone.png");    
+=======
+    background: url("D:/Linika/dev/sana_demo/images/phone.png");    
+>>>>>>> parent of e4bde52... images pathway
     content: '';
     display: inline-block;
     margin-right: 9px;
@@ -144,7 +148,11 @@ body {
 }
 
 .products::before {
+<<<<<<< HEAD
     background: url("css/images/basket-white.png") no-repeat;
+=======
+    background: url("D:/Linika/dev/sana_demo/images/basket-white.png") no-repeat;
+>>>>>>> parent of e4bde52... images pathway
     content: '';
     display: inline-block;    
     height: 18px;
@@ -199,7 +207,11 @@ body {
 }
 
 .nav_top p {
+<<<<<<< HEAD
     background-image: url("css/images/djgear-bg3.jpg");       
+=======
+    background-image: url("D:/Linika/dev/sana_demo/images/djgear-bg3.jpg");       
+>>>>>>> parent of e4bde52... images pathway
     margin: 0;
     font-size: 3.5rem;
     letter-spacing: 2px;
