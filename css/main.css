@@ -18,7 +18,7 @@ body {
 
 
 .info::before {
-    background: url("images/phone.png");    
+    background: url("sana/images/phone.png");    
     content: '';
     display: inline-block;
     margin-right: 9px;
