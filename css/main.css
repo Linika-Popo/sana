@@ -132,6 +132,10 @@ body {
     white-space: normal;
 }
 
+.my_basket a {
+    text-decoration: none;    
+}
+
 .products {
     color: white;
     letter-spacing: 1px;    
@@ -208,3 +212,31 @@ body {
 
 
 /* CONTAINER */
+
+.container {
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.aside {
+    max-width: 250px;
+}
+
+.section {
+    max-width: 750px;
+    margin-left: 250px;    
+}
+
+.aside ul {
+    list-style-type: none;
+}
+
+.aside a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.aside a:nth-child(6) {
+    color: #00a8ff;
+    font-weight: bold;
+}
