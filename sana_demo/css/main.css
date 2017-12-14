@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
+    font-size: 13px;
+    color: gray;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.header, .container, .footer {    
+    margin: 0 auto;
+}
+
+
+.info::before {
+    background: url("D:/Linika/dev/sana_demo/images/phone.png");    
+    content: '';
+    display: inline-block;
+    margin-right: 9px;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.customer {    
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: transparent;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    line-height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.lang {
+    width: 63px;
+    height: 100%;
+    position: relative;
+}
+
+.lang img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 17px;
+}
+
+.top_hyp {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;    
+    margin-top:  7px;
+    margin-bottom: 7px;
+    vertical-align: top;
+    padding: 0 15px;
+    color: #00a8ff;
+}
+
+
+.top_header, .bottom_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 10px;
+    min-height: 43px;
+    max-width: 1000px;
+}
+
+
+.search {
+    width: 55%;    
+    position: relative;
+    margin: 0 10px;
+}
+
+.search_wrapper {
+    position: relative;
+    padding-right: 55px;
+}
+
+.main_search {
+    background: #fff;    
+    border-radius: 3px 0 0 3px;
+    overflow: hidden;
+}
+
+.main_search input {
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: rgb(212, 212, 212);
+}
+
+.search_input {    
+    width: 495px;
+    height: 42px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.search_button {
+    padding-right: 14px;    
+    height: 42px;
+    min-width: 55px;
+    background-color: #00a8ff;
+    border: 0 solid #00a8ff;
+    border-radius: 0 3px 3px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.my_basket {
+    background-color: #f78400;
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    width: 140px;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.products {
+    color: white;
+    letter-spacing: 1px;    
+    line-height: 3rem;
+    padding: 10px 0 10px 10px;
+}
+
+.products::before {
+    background: url("D:/Linika/dev/sana_demo/images/basket-white.png") no-repeat;
+    content: '';
+    display: inline-block;    
+    height: 18px;
+    width: 20px;
+    vertical-align: middle;
+    padding-right: 10px; 
+}
+
+/* NAV */
+
+
+.nav_top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 16%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #00a8ff;
+}
+
+.nav_top li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    text-shadow: 0 1px 1px #000;
+}
+
+.nav_top li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;    
+}
+
+.nav_top li a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(212, 212, 212, 0.966);
+    text-shadow: 0 0 0;
+    padding: 1.5rem;
+}
+
+.nav_top .active {
+    display: inline-block;
+    border-bottom: 3px solid white;
+    color: #fff;
+    text-align: center;
+    padding: 0.2rem 1.5rem;
+    text-decoration: none; 
+}
+
+.nav_top p {
+    background-image: url("D:/Linika/dev/sana_demo/images/djgear-bg3.jpg");       
+    margin: 0;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    line-height: 6rem;
+    font-weight: 700;
+    color: #000;   
+    padding: 100px 20% 0;
+    vertical-align: bottom;
+}
+
+
