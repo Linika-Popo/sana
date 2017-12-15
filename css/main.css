@@ -163,6 +163,7 @@ body {
     text-align: center;
     overflow: hidden;
     background-color: #00a8ff;
+    line-height: 16px;
 }
 
 .nav_top li {
@@ -221,11 +222,7 @@ body {
 
 .aside {
     max-width: 250px;
-}
-
-.section {
-    max-width: 750px;
-    margin-left: 250px;    
+    float: left;
 }
 
 .aside ul {
@@ -241,3 +238,24 @@ body {
     color: #00a8ff;
     font-weight: bold;
 }
+
+
+.section {
+    max-width: 750px;
+    margin-left: 250px;    
+}
+
+.products_found, .view, .sort_by {
+    float: left;
+    width: 250px;
+}
+
+
+.view {
+    position: relative;
+}
+
+.view a {
+    margin: 0 15px;
+}
+
