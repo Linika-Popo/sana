@@ -215,7 +215,7 @@ body {
 
 /* CONTAINER */
 
-.content {
+.container {
     max-width: 1000px; 
     margin: 0 auto;
 }
@@ -223,6 +223,9 @@ body {
 .aside {
     max-width: 250px;
     float: left;
+    border-right: 1px solid rgb(230, 230, 230);
+    padding-right: 70px;
+    height: 1600px;
 }
 
 .aside ul {
@@ -242,20 +245,70 @@ body {
 
 .section {
     max-width: 750px;
-    margin-left: 250px;    
+    float: right;    
 }
 
 .products_found, .view, .sort_by {
     float: left;
     width: 250px;
+    margin: 10px auto;
 }
 
-
-.view {
-    position: relative;
+.section_main {
+    display: block;
+    border-top: 1px solid rgb(230, 230, 230);
+    margin-top: 50px;
+    width: 750px;
 }
 
-.view a {
-    margin: 0 15px;
+.product {
+    margin-top: 20px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    height: 100px;
 }
 
+.p_photo {
+    float: left;
+    width: 75px;
+    margin-right: 25px;
+}
+
+.p_description {
+    float: left;
+    width: 500px;
+}
+
+.p_name a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.p_action {
+    float: right;
+    width: 130px;
+}
+
+.p_price {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 38px;
+    color: #cb2245;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+
+.p_add button {
+    background-color: #f78400;
+    border: none;
+    border-bottom: 1px solid rgb(172, 92, 0);
+    width: 120px;
+    height: 35px;
+    font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
