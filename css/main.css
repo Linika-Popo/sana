@@ -113,6 +113,7 @@ body {
     height: 42px;
     min-width: 55px;
     background-color: #00a8ff;
+    background-image: url("/sana/images/search.png");
     border: 0 solid #00a8ff;
     border-radius: 0 3px 3px 0;
     box-sizing: border-box;
