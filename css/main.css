@@ -236,7 +236,7 @@ body {
     max-width: 300px;
     float: left;
     border-right: 1px solid rgb(230, 230, 230);
-    padding-right: 115px;
+    padding-right: 150px;
     height: 1600px;
 }
 
@@ -263,17 +263,17 @@ body {
 
 .products_found {
     float: left;
-    width: 300px;
+    width: 275px;
 }
 
 .view {
     float: left;
-    width: 100px;
+    width: 200px;
 }
 
 .sort_by {
     float: left;
-    width: 250px;
+    width: 225px;
 }
 
 .btn_view_list {
@@ -317,7 +317,8 @@ body {
     display: block;
     border-top: 1px solid rgb(230, 230, 230);
     margin-top: 50px;
-    width: 730px;
+    margin-left: -15px;
+    width: 715px;
 }
 
 .product {
@@ -340,7 +341,7 @@ body {
 
 .p_description {
     float: left;
-    width: 500px;
+    width: 485px;
 }
 
 .p_name a {
