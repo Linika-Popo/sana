@@ -350,7 +350,9 @@ body {
 .show_next button::after {
     content: "";
     background: url("/sana/images/btn-arrow-down.png") no-repeat;
-    position: relative;
-    right: 40px;
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    right: 45px;
 
 }
