@@ -264,8 +264,13 @@ body {
 .product {
     margin-top: 20px; 
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(230, 230, 230);
-    height: 100px;
+    border-bottom: 1px solid rgb(230, 230, 230);    
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .p_photo {
