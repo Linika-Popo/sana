@@ -336,8 +336,7 @@ body {
     background: url("/sana/images/btn-arrow-right.png") no-repeat;
     position: absolute;
     width: 8px;
-    height: 13px;
-    right: 40px;
+    height: 13px;  
 }
 
 .show_next {
@@ -362,6 +361,6 @@ body {
     position: absolute;
     width: 12px;
     height: 8px;
-    right: 45px;
+    
 
 }
