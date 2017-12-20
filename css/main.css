@@ -267,6 +267,43 @@ body {
     margin: 10px auto;
 }
 
+.btn_view_list {
+    content: "";
+    background: url("/sana/images/view-list.png") no-repeat 0 0;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.btn_view_list:hover {
+    content: "";
+    background: url("/sana/images/view-list.png") no-repeat 0 25px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.btn_view_grid {
+    content: "";
+    background: url("/sana/images/view-grid.png") no-repeat 0 50px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.btn_view_grid:hover {
+    content: "";
+    background: url("/sana/images/view-grid.png") no-repeat 0 25px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+
 .section_main {
     display: block;
     border-top: 1px solid rgb(230, 230, 230);
