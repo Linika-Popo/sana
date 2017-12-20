@@ -269,7 +269,7 @@ body {
 
 .btn_view_list {
     content: "";
-    background: url("/sana/images/view-list.png") no-repeat 0 0;
+    background: url("/sana/images/view-list.png") no-repeat 0 25px;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -278,7 +278,7 @@ body {
 
 .btn_view_list:hover {
     content: "";
-    background: url("/sana/images/view-list.png") no-repeat 0 25px;
+    background: url("/sana/images/view-list.png") no-repeat 0 0;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -287,7 +287,7 @@ body {
 
 .btn_view_grid {
     content: "";
-    background: url("/sana/images/view-grid.png") no-repeat 0 50px;
+    background: url("/sana/images/view-grid.png") no-repeat 0 -25px;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -296,7 +296,7 @@ body {
 
 .btn_view_grid:hover {
     content: "";
-    background: url("/sana/images/view-grid.png") no-repeat 0 25px;
+    background: url("/sana/images/view-grid.png") no-repeat 0 0;
     width: 25px;
     height: 25px;
     position: absolute;
