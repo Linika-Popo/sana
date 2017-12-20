@@ -233,7 +233,7 @@ body {
 }
 
 .aside {
-    max-width: 250px;
+    max-width: 300px;
     float: left;
     border-right: 1px solid rgb(230, 230, 230);
     padding-right: 115px;
@@ -257,14 +257,23 @@ body {
 }
 
 .section {
-    max-width: 750px;
+    max-width: 700px;
     float: right;    
 }
 
-.products_found, .view, .sort_by {
+.products_found {
+    float: left;
+    width: 300px;
+}
+
+.view {
+    float: left;
+    width: 100px;
+}
+
+.sort_by {
     float: left;
     width: 250px;
-    margin: 10px auto;
 }
 
 .btn_view_list {
