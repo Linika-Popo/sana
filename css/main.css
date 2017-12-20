@@ -328,7 +328,8 @@ body {
     height: 35px;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
     color: #fff;
-    font-size: 12px;    
+    font-size: 12px;
+    cursor: pointer;
 }
 
 .p_add button::after {
@@ -336,7 +337,8 @@ body {
     background: url("/sana/images/btn-arrow-right.png") no-repeat;
     position: absolute;
     width: 8px;
-    height: 13px;  
+    height: 13px; 
+    margin-left: 10px; 
 }
 
 .show_next {
@@ -353,6 +355,7 @@ body {
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;    
     font-size: 14px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 .show_next button::after {
@@ -361,6 +364,6 @@ body {
     position: absolute;
     width: 12px;
     height: 8px;
-    
+    margin: 5px 10px;
 
 }
