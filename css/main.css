@@ -114,6 +114,8 @@ body {
     min-width: 55px;
     background-color: #00a8ff;
     background-image: url("/sana/images/search.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     border: 0 solid #00a8ff;
     border-radius: 0 3px 3px 0;
     box-sizing: border-box;
