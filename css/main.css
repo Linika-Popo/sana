@@ -124,8 +124,13 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    cursor: pointer;
 }
 
+.search_button:hover {
+    background-color: #2289e3;
+    border-color: #1b6eb6;
+}
 .my_basket {
     background-color: #f78400;
     display: inline-block;
