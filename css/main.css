@@ -316,7 +316,7 @@ body {
     line-height: 38px;
     color: #cb2245;
     text-align: right;
-    padding-right: 10px;
+    
     
 }
 
@@ -324,19 +324,33 @@ body {
     background-color: #f78400;
     border: none;
     border-bottom: 1px solid rgb(172, 92, 0);
-    width: 120px;
+    width: 130px;
     height: 35px;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
     color: #fff;
-    font-size: 12px;
-}
-
-.p_add button::after {
-    content: '';
-    background: #f78400 url("/sana/images/btn-arrow-right.png") no-repeat;
+    font-size: 12px;    
 }
 
 .show_next {
     float: right;
-    padding-right: 20px;
+}
+
+.show_next button {
+    width: 220px;
+    height: 45px;
+    border: none;
+    background-color: #00a8ff;
+    border-color: #00a8ff;
+    color: #fff;
+    font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;    
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.show_next button::after {
+    content: "";
+    background: url("/sana/images/btn-arrow-down.png") no-repeat;
+    position: relative;
+    right: 40px;
+
 }
