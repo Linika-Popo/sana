@@ -379,6 +379,11 @@ body {
     text-align: left;
 }
 
+.p_add button:hover {
+    background-color: #f09630;
+    border-color: #a86922;
+}
+
 .p_add button::after {
     content: "";    
     background: url("/sana/images/arrow-bg.png") no-repeat;
@@ -406,13 +411,20 @@ body {
     cursor: pointer;
 }
 
+.show_next button:hover {
+    height: 45px;
+    line-height: 44px;
+    background-color: #2289e3;
+    border-bottom: 2px solid #1b6eb6;
+}
+
 .show_next button::after {
     content: "";
-    background: url("/sana/images/btn-arrow-down.png") no-repeat;
+    background: url("/sana/images/arrow-down-bg.png") no-repeat;
     position: absolute;
-    width: 12px;
-    height: 8px;
-    margin: 5px 18px;
+    width: 38px;
+    height: 45px;
+    margin: -14px 6px;
 }
 
 .section .section_footer {    
