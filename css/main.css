@@ -491,20 +491,20 @@ body {
     border: none;
     background-color: #00a8ff;
     border-color: #00a8ff;
-    width: 120px;
+    width: 110px;
     height: 35px;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
     color: #fff;
     font-size: 12px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 100px;
     padding-left: 15px;
     text-align: left;
 }
 
 .last_p_add button:hover {
     background-color: #2289e3;
-    border-bottom: 2px solid #1b6eb6;
+    border-bottom: 1px solid #1b6eb6;
 }
 
 .last_p_add button::after {
@@ -513,8 +513,8 @@ body {
     position: absolute;
     width: 35px;
     height: 35px; 
-    margin-left: -2px; 
-    margin-top: -4px;
+    margin-left: -7px; 
+    margin-top: -5px;
 }
 
 .clearfix {
