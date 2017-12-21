@@ -526,11 +526,26 @@ body {
 }
 
 .general_footer {
+    background-color: #00a8ff;   
+    
+}
+
+.footer {    
+    color: #fff;
+    display: inline-block;    
+    width: 100%;
+    padding: 0 20%;
     background-color: #00a8ff;
 }
 
+.sitemap_top_left { 
+   float: left;
+   width: 60%;
+  
+}
 
-.footer {
-    max-width: 1000px;
-
+.sitemap_top_right {
+    float: left;
+    width: 30%;
+  
 }
