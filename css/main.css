@@ -380,8 +380,8 @@ body {
 }
 
 .p_add button::after {
-    content: "";
-    background: url("/sana/images/btn-arrow-right.png") no-repeat;
+    content: "";    
+    background: url("/sana/images/arrow-bg.png") no-repeat;
     position: absolute;
     width: 8px;
     height: 13px; 
