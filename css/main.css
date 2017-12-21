@@ -92,12 +92,14 @@ body {
     background: #fff;    
     border-radius: 3px 0 0 3px;
     overflow: hidden;
+    border: 1px solid #e6e6e6;
 }
 
 .main_search input {
     font-style: italic;
     letter-spacing: 0.5px;
-    color: rgb(212, 212, 212);
+    color: #e6e6e6;
+    border: none;
 }
 
 .search_input {    
@@ -110,13 +112,13 @@ body {
 
 .search_button {
     padding-right: 14px;    
-    height: 42px;
+    height: 44px;
     min-width: 55px;
     background-color: #00a8ff;
     background-image: url("/sana/images/search.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    border: 0 solid #00a8ff;
+    border: 1px solid #00a8ff;
     border-radius: 0 3px 3px 0;
     box-sizing: border-box;
     overflow: hidden;
