@@ -383,9 +383,10 @@ body {
     content: "";    
     background: url("/sana/images/arrow-bg.png") no-repeat;
     position: absolute;
-    width: 8px;
-    height: 13px; 
-    margin-left: 20px; 
+    width: 35px;
+    height: 35px; 
+    margin-left: 3px; 
+    margin-top: -10px;
 }
 
 .show_next {
