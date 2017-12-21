@@ -232,13 +232,15 @@ body {
 .container {
     max-width: 1000px; 
     margin: 10px auto;
+    
 }
 
 .aside {
     max-width: 300px;
     float: left;
     border-right: 1px solid rgb(230, 230, 230);
-    padding-right: 150px;
+    padding-right: 140px;
+    margin-right: 35px;
     height: 1600px; /* ---------------------------------------------------------------------- */
 }
 
@@ -323,8 +325,8 @@ body {
 }
 
 .product {
-    margin-top: 20px; 
-    padding-bottom: 10px;
+    margin-top: 15px; 
+    padding-bottom: 15px;
     border-bottom: 1px solid rgb(230, 230, 230);    
 }
 
@@ -523,6 +525,12 @@ body {
     clear: both;
 }
 
+.general_footer {
+    background-color: #00a8ff;
+}
 
 
+.footer {
+    max-width: 1000px;
 
+}
