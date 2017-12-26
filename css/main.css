@@ -333,7 +333,7 @@ body {
 .p_photo {
     float: left;
     width: 75px;    
-    margin-right: 25px;
+    margin-right: 15px;
 }
 .p_photo img {
     width: 64px;
@@ -343,6 +343,7 @@ body {
 .p_description {
     float: left;
     width: 485px;
+    margin-right: 10px;
 }
 
 .p_name a {
@@ -502,7 +503,7 @@ body {
     color: #fff;
     font-size: 12px;
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 90px;
     padding-left: 15px;
     text-align: left;
 }
@@ -622,11 +623,49 @@ body {
     position: absolute;
     width: 35px;
     height: 35px; 
-    margin-left: -6px; 
-    margin-top: -10px;
+    margin-left: 1px; 
+    margin-top: -9px;
 }
 
 .newsletter button:hover {
     background-color: #2289e3;
     border-bottom: 1px solid #1b6eb6;
+}
+
+.sitemap_bottom {
+    padding-top: 50px;
+}
+
+.sitemap_bottom_left {
+    width: 60%;
+    float: left;
+    padding-left: 50px;
+}
+
+.sitemap_bottom_right {
+    width: 37%;
+    float: right;
+}
+.footer_nav ul {
+    list-style: none;    
+    margin: 0;
+    padding: 0; 
+}
+
+.footer_nav li {
+    display: inline;     
+    float: left;
+    padding-right: 10px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.footer_nav a:hover {
+    text-decoration: underline;
+    color: #ffffff;
 }
