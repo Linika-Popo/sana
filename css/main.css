@@ -370,6 +370,7 @@ body {
     background-color: #f78400;
     border: none;
     border-bottom: 1px solid rgb(172, 92, 0);
+    border-radius: 2px;
     width: 120px;
     height: 35px;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
@@ -406,6 +407,7 @@ body {
     border: none;
     background-color: #00a8ff;
     border-color: #00a8ff;
+    border-radius: 2px;
     color: #fff;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;    
     font-size: 14px;
@@ -493,6 +495,7 @@ body {
     border: none;
     background-color: #00a8ff;
     border-color: #00a8ff;
+    border-radius: 2px;
     width: 110px;
     height: 35px;
     font-family: 'Montserrat','Open Sans',sans-serif,sans-serif;
@@ -527,25 +530,103 @@ body {
 
 .general_footer {
     background-color: #00a8ff;   
-    
+    padding: 0 20%;
 }
 
 .footer {    
     color: #fff;
     display: inline-block;    
-    width: 100%;
-    padding: 0 20%;
-    background-color: #00a8ff;
+    width: 100%;    
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
 .sitemap_top_left { 
-   float: left;
-   width: 60%;
-  
+    float: left;
+    width: 60%;
+    padding-left: 50px;
 }
 
 .sitemap_top_right {
-    float: left;
-    width: 30%;
+    float: right;
+    width: 37%;
   
+}
+
+.sitemap_top .sitemap_header, .sitemap_top .newsletter_header {
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 800;
+    padding-bottom: 12px;    
+}
+
+.sitemap_list ul {
+    list-style: none;    
+    margin: 0;
+    padding: 0; 
+}
+
+.sitemap_list li {
+    display: inline;
+    width: 130px;
+    float: left;
+    padding-right: 13px;
+}
+
+.sitemap_list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.sitemap_list a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.newsletter div:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+.newsletter input {
+    width: 245px;
+    height: 34px;
+    border: none;
+    border-radius: 3px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #c2c2c2;
+    padding: 0 14px;
+    font-style: italic;    
+    float: left;
+    margin-right: 5px;
+}
+
+.newsletter button {
+    width: 110px;
+    height: 33px;
+    float: left;
+    border: none;
+    border-radius: 2px;
+    background-color: #00a8ff;
+    border-color: #00a8ff;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.newsletter button::after {
+    content: "";
+    background: url("/sana/images/arrow-bg.png") no-repeat;
+    position: absolute;
+    width: 35px;
+    height: 35px; 
+    margin-left: -6px; 
+    margin-top: -10px;
+}
+
+.newsletter button:hover {
+    background-color: #2289e3;
+    border-bottom: 1px solid #1b6eb6;
 }
