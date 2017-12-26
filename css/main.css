@@ -604,6 +604,10 @@ body {
     margin-right: 5px;
 }
 
+.newsletter input:focus {
+    background: #ffffff;
+}
+
 .newsletter button {
     width: 110px;
     height: 33px;
@@ -669,3 +673,4 @@ body {
     text-decoration: underline;
     color: #ffffff;
 }
+
