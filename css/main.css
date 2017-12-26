@@ -622,8 +622,8 @@ body {
     background: url("/sana/images/arrow-bg.png") no-repeat;
     position: absolute;
     width: 35px;
-    height: 35px; 
-    margin-left: 1px; 
+    height: 33px; 
+    margin-left: 0; 
     margin-top: -9px;
 }
 
